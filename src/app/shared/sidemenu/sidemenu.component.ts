@@ -47,6 +47,16 @@ export class SidemenuComponent implements OnInit {
     }
   ];
 
+  authMenu: MenuItem[] = [
+    {
+      texto: 'Registro',
+      ruta: '/auth/registro'
+    },
+    {
+      texto: 'login',
+      ruta: '/auth/login'
+    }
+  ]
   constructor() { }
 
   ngOnInit(): void {
